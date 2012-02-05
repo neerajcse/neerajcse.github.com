@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://neerajcse.github.com/atom.xml" rel="self"/>
   <link href="http://neerajcse.github.com/"/>
-  <updated>2012-02-06T03:01:04+05:30</updated>
+  <updated>2012-02-06T03:07:50+05:30</updated>
   <id>http://neerajcse.github.com/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My first post]]></title>
+    <link href="http://neerajcse.github.com/blog/2012/02/06/my-first-post/"/>
+    <updated>2012-02-06T03:05:00+05:30</updated>
+    <id>http://neerajcse.github.com/blog/2012/02/06/my-first-post</id>
+    <content type="html"><![CDATA[<h1>
+Testing my first post
+</h1>
+
+
+<p>Using the awesome octopress framework and deploying it on github pages.</p>
+
+<p>This is really cool.</p>
+]]></content>
+  </entry>
   
 </feed>

@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://neerajcse.github.com/blog/2012/02/06/my-first-post/</loc>
+        <lastmod>2012-02-06T03:07:11+05:30</lastmod>
+    </url>
+    <url>
         <loc>http://neerajcse.github.com/blog/archives/</loc>
-        <lastmod>2012-02-06T02:33:15+05:30</lastmod>
+        <lastmod>2012-02-06T03:07:11+05:30</lastmod>
     </url>
     <url>
         <loc>http://neerajcse.github.com/</loc>
-        <lastmod>2012-02-06T02:33:15+05:30</lastmod>
+        <lastmod>2012-02-06T03:07:11+05:30</lastmod>
     </url>
 </urlset>
