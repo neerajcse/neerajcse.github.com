@@ -197,6 +197,11 @@ Feb 06 2012 Recent Posts My first post .highlighted-calendar-day { color : #CCC;
 	{
 		var highlightArray = new Array("1/1/2012","7/1/2012","2/5/2012","2/8/2012");
 		var hightlightLinks = new Array("1/1/2012.html","7/1/2012.html","2/5/2012.html","2/8/2012.html");
+		
+        highlightArray.push('06/02/2012');
+		hightlightLinks.push('/blog/2012/02/06/my-first-post/');
+        
+		
 	    var cal = new Calendar(month,year,highlightArray,hightlightLinks);
 	    cal.generateHTML(id);
 		console.log(id);
