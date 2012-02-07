@@ -110,8 +110,9 @@ Calendar.prototype.generateHTML = function(id){
   for (var i = 0; i < 9; i++) {
     // this loop is for weekdays (cells)
     for (var j = 0; j <= 6; j++) {
-		var strMonth,strDay;
-	  id(day < 10 )
+		var strMonth;
+		var strDay;
+	  if(day < 10 )
 	  {
 		strDay = '0'+day;
 	  }
@@ -119,7 +120,7 @@ Calendar.prototype.generateHTML = function(id){
 	  {
 		strDay = day;
 	  }
-	  if((this.month+1) < 10 )
+	  if( (this.month+1) < 10 )
 	  {
 		strMonth = '0' + (this.month +1);
 		
