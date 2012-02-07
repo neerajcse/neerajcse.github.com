@@ -110,8 +110,25 @@ Calendar.prototype.generateHTML = function(id){
   for (var i = 0; i < 9; i++) {
     // this loop is for weekdays (cells)
     for (var j = 0; j <= 6; j++) {
-	
-	  var date = (this.month+1)+"/"+day+"/"+this.year;
+		var strMonth,strDay;
+	  id(day < 10 )
+	  {
+		strDay = '0'+day;
+	  }
+	  else
+	  {
+		strDay = day;
+	  }
+	  if((this.month+1) < 10 )
+	  {
+		strMonth = '0' + (this.month +1);
+		
+	  }
+	  else
+	  {
+		strMonth = this.month+1;
+	  }
+	  var date = strMonth+"/"+strDay+"/"+this.year;
 	  var isEvent =  this.highlightArray.indexOf(date) > -1;
 	  if(isEvent){
 		html += '<td><span class="highlighted-calendar-day"><a href="'+this.highlightLinks[this.highlightArray.indexOf(date)]+'">';
